@@ -66,7 +66,7 @@ public struct SignInView: View {
                 VStack(alignment: .center) {
                     ThemeAssets.appLogo.swiftUIImage
                         .resizable()
-                        .frame(maxWidth: 189, maxHeight: 54)
+                        .aspectRatio(contentMode: .fit)
                         .padding(.top, isHorizontal ? 20 : 40)
                         .padding(.bottom, isHorizontal ? 10 : 40)
                     

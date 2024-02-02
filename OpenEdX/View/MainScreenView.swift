@@ -69,17 +69,17 @@ struct MainScreenView: View {
             }
             .tag(MainTab.dashboard)
             
-            ZStack {
-                Text(CoreLocalization.Mainscreen.inDeveloping)
-                if updateAvaliable {
-                    UpdateNotificationView(config: viewModel.config)
-                }
-            }
-            .tabItem {
-                CoreAssets.programs.swiftUIImage.renderingMode(.template)
-                Text(CoreLocalization.Mainscreen.programs)
-            }
-            .tag(MainTab.programs)
+//            ZStack {
+//                Text(CoreLocalization.Mainscreen.inDeveloping)
+//                if updateAvaliable {
+//                    UpdateNotificationView(config: viewModel.config)
+//                }
+//            }
+//            .tabItem {
+//                CoreAssets.programs.swiftUIImage.renderingMode(.template)
+//                Text(CoreLocalization.Mainscreen.programs)
+//            }
+//            .tag(MainTab.programs)
             
             VStack {
                 ProfileView(

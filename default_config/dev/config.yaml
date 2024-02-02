@@ -1,7 +1,9 @@
-API_HOST_URL: 'http://localhost:8000'
-ENVIRONMENT_DISPLAY_NAME: 'Localhost'
-FEEDBACK_EMAIL_ADDRESS: 'support@example.com'
-OAUTH_CLIENT_ID: ''
+API_HOST_URL: 'https://courses.techdiplomacyacademy.org'
+ENVIRONMENT_DISPLAY_NAME: 'Live'
+FEEDBACK_EMAIL_ADDRESS: 'support@techdiplomacyacademy.org'
+OAUTH_CLIENT_ID: 'xArIcasO3dV3Nlk3qjHIDv7JFPxac8dPRSathUXj'
+TOKEN_TYPE: 'BEARER'
+WEB_LOGIN: true
 
 UI_COMPONENTS:
     COURSE_BANNER_ENABLED: true

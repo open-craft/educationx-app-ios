@@ -1,7 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Frame 4 1.svg",
+      "filename" : "TDA-logo-positive.svg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "TDA-logo-negative.svg",
       "idiom" : "universal"
     }
   ],
